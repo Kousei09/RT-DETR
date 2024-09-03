@@ -152,16 +152,16 @@ class ConvertCocoPolysToMask(object):
 
 
 mscoco_category2name = {
-    1: 'building',
-    2: 'car',
-    3: 'debri',
-    4: 'ftpath',
-    5: 'mroad',
-    6: 'ofield',
-    7: 'roof',
-    8: 'shadow',
-    9: 'tank',
-    10: 'tree'
+    0: 'building',
+    1: 'car',
+    2: 'debri',
+    3: 'ftpath',
+    4: 'mroad',
+    5: 'ofield',
+    6: 'roof',
+    7: 'shadow',
+    8: 'tank',
+    9: 'tree'
 }
 
 mscoco_category2label = {k: i for i, k in enumerate(mscoco_category2name.keys())}
